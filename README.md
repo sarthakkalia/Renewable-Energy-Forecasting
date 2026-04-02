@@ -4,7 +4,7 @@
 
 ---
 
-## 📄 Overview
+## Overview
 
 This repository contains the research and implementation for short-term renewable energy forecasting using machine learning. The study addresses the inherently intermittent nature of solar and wind resources and presents a structured framework for accurate hourly power output prediction in microgrid environments.
 
@@ -13,7 +13,7 @@ This repository contains the research and implementation for short-term renewabl
 
 ---
 
-## 🔍 Problem Statement
+## Problem Statement
 
 Renewable energy generation (solar PV and wind) is weather-dependent and cannot be dispatched on demand. In grid-connected microgrids, this variability affects:
 - Voltage stability and frequency regulation
@@ -24,7 +24,7 @@ Traditional models (ARIMA, persistence methods) fail to capture nonlinear intera
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 **Source:** [Renewable Energy Microgrid Dataset — Kaggle (Programmer3, 2025)]([https://www.kaggle.com/](https://www.kaggle.com/datasets/programmer3/renewable-energy-microgrid-dataset))
 
@@ -53,7 +53,7 @@ Traditional models (ARIMA, persistence methods) fail to capture nonlinear intera
 
 ---
 
-## ⚙️ Methodology
+## Methodology
 
 ### Feature Engineering
 
@@ -88,7 +88,7 @@ A **time-aware chronological split** was used to prevent data leakage and preser
 
 ---
 
-## 🏆 Key Results
+## Key Results
 
 - Ensemble tree-based models (XGBoost, LightGBM, CatBoost) consistently outperformed linear and kernel-based models.
 - Near-perfect predictive accuracy achieved for both solar and wind forecasting tasks.
@@ -97,7 +97,7 @@ A **time-aware chronological split** was used to prevent data leakage and preser
 
 ---
 
-## 🧩 Key Contributions
+## Key Contributions
 
 1. Unified forecasting framework incorporating meteorological, grid-level, battery, and temporal features.
 2. Advanced feature engineering with cyclical encoding, lag features, and rolling statistics.
@@ -108,7 +108,7 @@ A **time-aware chronological split** was used to prevent data leakage and preser
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Language:** Python 3.x
 - **ML Libraries:** scikit-learn, XGBoost, LightGBM, CatBoost
@@ -118,7 +118,7 @@ A **time-aware chronological split** was used to prevent data leakage and preser
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 ├── data/
@@ -131,7 +131,7 @@ A **time-aware chronological split** was used to prevent data leakage and preser
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ```bash
 # Clone the repository
@@ -144,14 +144,14 @@ cd Renewable-Energy-Forecasting
 
 ---
 
-## 📚 References
+## References
 
 1. Programmer3 (2025). *Renewable Energy Microgrid Dataset*. Kaggle.
 2. Related literature on ARIMA, SVR, LSTM, and ensemble methods for renewable forecasting — see paper for full citation list.
 
 ---
 
-## 📜 License
+## License
 
 This project is for academic research purposes. Please cite the original paper if you use this work.
 
